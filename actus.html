@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestSolution - Actualités</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #ec8e02;
+        }
+        nav a {
+            color: #ec8e02 !important;
+        }
+        footer {
+            background-color: #111;
+            color: #ec8e02;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="investlogo4.jpg" alt="Logo InvestSolution" style="height: 30px; margin-right: 10px;"> InvestSolution</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="conseils.html">Conseils</a></li>
+                    <li class="nav-item"><a class="nav-link" href="actus.html"> <strong>Actualités</strong> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="graphs.html">Graphiques</a></li>
+                    <li class="nav-item"><a class="nav-link" href="glossaire.html">Glossaire</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Biblio.html">Bibliographie</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <header class="text-center">
+        <div class="container-fluid p-0">
+            <img src="investlogo3.jpg" alt="Présentation InvestSolution" class="img-fluid w-100" style="max-height: 400px; object-fit: cover;">
+            <div class="overlay text-center text-light py-3">
+                <h1>Actualités</h1>
+                <p>Vous retrouverez les actualités économiques de la semaine, <br> des informations boursières importantes et des articles intéressants.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="container py-4">
+        
+        <div id="carouselActualites" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselActualites" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselActualites" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselActualites" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 400px;">
+                    <img src="morning.png" class="d-block mx-auto" alt="Actualité 1" style="max-height: 90%; max-width: 100%; object-fit: contain;">
+                    <div class="carousel-caption d-none d-md-block" style="top: 0; bottom: 0; left: 0; right: 0; position: absolute; color: #ec8e02;">
+                        <a href="https://view.email.meilleurtaux.com/?qs=b4e3b817bd9f5fbf2f9b1aabc0ebecf2aaaf62f547382b74609b6b57e6e4d22e5035c3b894f853e5192cd01e787a00ec4a53da659cefa71d60c3dd6e2e57cadf"> <h5> ‎ <br> ‎ <br> ‎ <br> ‎ <br> ‎ <br> ‎ <br> ‎ <br> ‎ <br> ‎ <br> ‎ <br> ‎<br> ‎<br> ‎<br> ‎</h5> </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="height: 400px;">
+                    <a href="https://fr.tradingview.com/news/beincrypto:0d90ca9fbb858:0/"> <img src="fed.jpg" class="d-block mx-auto" alt="Actualité 2" style="max-height: 70%; max-width: 100%; object-fit: contain;"> </a>
+                    <div class="carousel-caption d-none d-md-block"  style="top: 65%; bottom: 5%; left: 0; right: 0; position: absolute; color: #ec8e02;">
+                        <h4>Les Bourses mondiales pas convaincues par les résultats d'entreprises</h4>
+                        <p>Les Bourses mondiales ont reculé jeudi, <br> insatisfaites de nombreux résultats trimestriels d'entreprises.</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" style="height: 400px;">
+                    <a href="https://www.tradingsat.com/actualites/marches-financiers/pourquoi-il-faut-etre-tres-prudent-apres-qu-une-action-a-chute-de-plus-de-10-sur-une-seance-1130276.html"> <img src="bourse_europeenne.jpg" class="d-block mx-auto" alt="Actualité 3" style="max-height: 65%; max-width: 100%; object-fit: contain;"> </a>
+                    <div class="carousel-caption d-none d-md-block" style="top: 260px; bottom: 0px; left: 0; right: 0; position: absolute; color: #ec8e02;"> 
+                        <h4>Cac 40 :</h4>
+                        <p>Une flopée de publications décevantes mine <br> le CAC 40 qui poursuit son repli.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselActualites" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselActualites" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </section>
+    
+
+
+    
+
+    <footer class="text-center py-3">
+        <p>&copy; 2025 InvestSolution - Site créer par Edgar CANU</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
