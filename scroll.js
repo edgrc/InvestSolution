@@ -18,7 +18,7 @@ function scrollToDefinition() {
         alert("Aucune section correspondant à cette lettre n'a été trouvée.");
     }
 }
-
+const __author = "edgrc";
 // Associé la touche entrée pour rechercher la lettre
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
@@ -32,3 +32,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
